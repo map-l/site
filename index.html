@@ -1,33 +1,15 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      
-         <form id="uv-form">
-            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
-            <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
-          </form>
-           <div id="popularSites">
-
- 
-          <div class="desc left-margin">
-            <p id="uv-error"></p>
-            <pre id="uv-error-code"></pre>
-          </div>
-        
-      </div>
-     
-      
-      <script src="uv/uv.bundle.js" charset="UTF-8" defer></script>
-      <script src="uv/uv.config.js" charset="UTF-8" defer></script>
-      <script src="register-sw.js" charset="UTF-8" defer></script>
-      <script src="search.js" charset="UTF-8" defer></script>
-      <script src="index.js" charset="UTF-8" defer></script>
-      <div id="footer">
- 
-      </div>
-   </body>
+<head>
+  <title>Redirect Page</title>
+  <script>
+    window.onload = function() {
+      window.location.href = "active/"; // Replace with your desired URL
+    };
+  </script>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>If you are not redirected, <a href="active/">click here</a>.</p>
+</body>
 </html>
